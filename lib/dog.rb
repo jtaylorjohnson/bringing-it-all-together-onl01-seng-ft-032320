@@ -61,7 +61,7 @@ class Dog
   end
   
   def self.create(attributes)
-    dog = dog.new(attributes)
+    dog = self.new(attributes)
     dog.save
     dog
   end
